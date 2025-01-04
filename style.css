@@ -40,6 +40,7 @@ body{
 }
 span{
     background: var(--text-gradient-color);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -56,6 +57,7 @@ span{
 }
 .heading:hover{
     background: var(--text-gradient-color);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     scale: 1.1;
@@ -77,6 +79,7 @@ span{
     color: var(--light-bg-color);
     border: 2px solid var(--main-color); 
     background: var(--text-gradient-color);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -173,6 +176,7 @@ c{
 .navbar a.active{
     background: var(--main-gradient-color);
     border-bottom: 3px solid var(--main-color);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -428,6 +432,7 @@ img {
 .container .left-side .details i{
     font-size: 30px;
     background: var(--main-gradient-color);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 10px;
@@ -456,6 +461,7 @@ img {
     font-size: 23px;
     font-weight: 600;
     background: var(--main-gradient-color);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -541,6 +547,7 @@ img {
 .footer ul li a:hover{
     background: var(--main-gradient-color);
     border-bottom: 3px solid var(--main-color);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
