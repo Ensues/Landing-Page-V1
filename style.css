@@ -489,6 +489,10 @@ img {
     resize: none;
 }
 
+.container .right-side textarea {
+    padding: 15px;
+}
+
 .container .right-side .message-box{
     min-height: 110px;
     margin-top: 6px;
