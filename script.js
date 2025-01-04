@@ -53,6 +53,5 @@ document.getElementById('theme-toggle').addEventListener('click', function() {
     document.querySelector('.social-icons').classList.toggle('light-mode');
     document.querySelector('.home-content').classList.toggle('light-mode'); 
     document.querySelector('.contact').classList.toggle('light-mode');
-    document.querySelector('.testimonials').classList.toggle('light-mode');
     // document.querySelector('.').classList.toggle('light-mode'); <-- Add this line
 });
